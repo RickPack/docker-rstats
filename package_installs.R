@@ -71,3 +71,7 @@ install_tfhub()
 
 # The in-development but usable autoML forester package, which includes a preprocessing function
 install_github("ModelOriented/forester")
+# ggradar and tinytex are used by the forester package in reports via report()
+install_github('ricardo-bion/ggradar', dependencies = TRUE)
+install.packages('tinytex')
+tinytex::install_tinytex()
