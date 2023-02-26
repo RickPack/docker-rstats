@@ -68,3 +68,6 @@ install.packages(c('collections', 'languageserver'), dependencies=TRUE)
 # The tfhub package is added to the rcran image.
 library(tfhub)
 install_tfhub()
+
+# The in-development but usable autoML forester package, which includes a preprocessing function
+install_github("ModelOriented/forester")
